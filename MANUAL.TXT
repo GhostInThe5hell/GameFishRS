@@ -2,7 +2,7 @@
 
 
         ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⡶⠖⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣶⣶⣦⡀                                                            ⢀⣴⣶⣶⣦⡀
-        ⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣾⣿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⡟⠀⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀ ⢹⣿
+        ⠀⠀⠀⠀⠀⠀⠀⣀⣤⣶⣾⣿⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⣿⣿⣿⡟⠀⠀⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀ ⢹⣿
         ⠀⠀⠀⠀⣀⣴⣾⣿⡿⢻⡿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⣿⡿⠟⠉⠁⠙⢿⣦⣤⣾⠏                                                            ⠙⢿⣦⣤⣾⠏
         ⠀⠀⣠⣾⣿⡿⠟⠁⠀⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣿⠟⠋⠀⠀⠀⠀⠀⠀⠉⠉⠀⠀
         ⠀⣼⣿⣿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣿⡿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -51,5 +51,8 @@ Uso:
     Una vez que se completa la descarga, GameFishRS inyecta automáticamente el código en el juego.
     Si la inyección de código falla, GameFishRS muestra un mensaje de error y proporciona sugerencias para resolver el problema.
     GameFishRS continúa ejecutándose hasta que se cierre manualmente.
+    
+Consejo: GameFishRS ya viene con una plantilla de un tema en especifico(FORTNITE), es su responsabilidad hacer TODOS los cambios pertinentes para llevar a 
+        cabo su funcionamiento.
 
 Nota: El uso de GameFishRS para obtener una ventaja injusta contra una persona sin su consentimiento es ilegal y puede resultar en consecuencias graves y puede ser procesable por ley. Esta herramienta solo tiene fines educativos y no se recomienda el uso de esta herramienta en situaciones ilegales o inapropiadas. El creador no se hace responsable por el mal uso de esta herramienta.
