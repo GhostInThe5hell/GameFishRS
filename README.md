@@ -1,4 +1,4 @@
-
+'''
 
 
         ⠀⠀⠀⠀⠀⠀⠀⢀⣀⣤⣤⡶⠖⠒⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣶⣶⣦⡀   ⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -22,6 +22,7 @@
 GameFishRS - Version publica
 
 Requerimientos:
+
     -Ambas partes deben contar con conexion estable a internet.
     -Python3.x
     -Editor/IDE
@@ -48,3 +49,4 @@ La "inyección de código" esta programada para simular que falla, el script mue
 En general, este código intenta ejecutar un ataque malicioso al establecer una conexión de shell inversa a una dirección IP y un puerto remotos. Disfraza el ataque como un truco de dinero de Fortnite y simula utilizar una VPN integrada y una barra de progreso para que el ataque parezca más legítimo. Sin embargo, intentar ejecutar este código es ilegal y podría tener graves consecuencias.
 
 Nota: El uso de GameFishRS para obtener una ventaja injusta contra una persona sin su consentimiento es ilegal y puede resultar en consecuencias graves y puede ser procesable por ley. Esta herramienta solo tiene fines educativos y no se recomienda el uso de esta herramienta en situaciones ilegales o inapropiadas. El creador no se hace responsable por el mal uso de esta herramienta.
+'''
